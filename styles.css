@@ -155,3 +155,35 @@ body {
 .whatsapp-float img {
     width: 40px;
 }
+
+@media (max-width: 768px) {
+    .service {
+        width: 90%; /* Ocupa quase toda a largura em telas menores */
+    }
+
+    .container h1 {
+        font-size: 1.5em;
+    }
+
+    .nav-list {
+        flex-direction: column; /* Menu em coluna */
+        align-items: center;
+    }
+
+    .nav-list li {
+        margin: 5px 0;
+    }
+
+    .hero {
+        padding: 80px 10px;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero .btn {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+}
