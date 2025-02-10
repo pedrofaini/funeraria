@@ -43,7 +43,7 @@ body {
 .cabecalho {
     width: 150px;
     height: 140px;
-    margin-right: -300px;
+    margin-right: -70px;
     margin-top: -15px;
 }
 
@@ -176,6 +176,7 @@ body {
 
     .cabecalho {
         width: 80px;
+        margin-right: -70px;
     }
 
     .hero {
