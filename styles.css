@@ -186,11 +186,14 @@ body {
     }
 
     .nav-list .emerg {
-        margin: 5px -5px;
+        margin: 0px -15px;
+        margin-left: 15px;
+        font: 0.7em;
     }
 
     .logo {
         font-size: 1rem;
+        margin-left: 35px;
     }
 
     .cabecalho {
