@@ -63,20 +63,31 @@ body {
     margin-left: 25px;
 }
 
-.nav-list a {
+.emerg {
+    color: rgba(168, 12, 12, 0.678);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-list .serv {
     color: black;
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s;
 }
 
-.nav-list a:hover {
+.nav-list .serv:hover {
     color: #225473;
+}
+
+.nav-list .emerg:hover {
+    color: red;
 }
 
 /* Hero */
 .hero {
-    background: url('crematorio.png') no-repeat center center/cover;
+    background: url('WhatsApp\ Image\ 2025-02-10\ at\ 21.13.34.jpeg') no-repeat center center/cover;
     color: rgba(255, 255, 255, 0.808);
     text-align: center;
     padding: 300px;
@@ -155,6 +166,10 @@ body {
 
 .whatsapp-float img {
     width: 40px;
+}
+
+.loc {
+    color: white;
 }
 
 @media (max-width: 768px) {
