@@ -185,7 +185,7 @@ body {
         display: none;
     }
 
-    .nav-list li {
+    .nav-list .emerg {
         margin: 5px -5px;
     }
 
